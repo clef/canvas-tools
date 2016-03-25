@@ -1,2 +1,1 @@
-import canvasTools from './canvas-tools'
-export default canvasTools
+export * from './canvas-tools'
