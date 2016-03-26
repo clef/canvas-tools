@@ -22,8 +22,14 @@ npm install @clef/canvas-tools
 And include in your project:
 
 ```javascript
-import @clef/canvas-tools from '@clef/canvas-tools';
+import canvasTools from '@clef/canvas-tools'
 ```
+
+## Usage
+
+### canvasTools.createHiDPICanvas(width, height)
+
+Creates a HiDPI canvas compatible with both retina and non-retina devices.
 
 ## License
 
