@@ -1,7 +1,6 @@
 # canvas-tools
 
 ![Build Status](https://img.shields.io/travis/clef/canvas-tools.svg)
-![Coverage](https://img.shields.io/coveralls/clef/canvas-tools.svg)
 ![Downloads](https://img.shields.io/npm/dm/@clef/canvas-tools.svg)
 ![Downloads](https://img.shields.io/npm/dt/@clef/canvas-tools.svg)
 ![npm version](https://img.shields.io/npm/v/@clef/canvas-tools.svg)
