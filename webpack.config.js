@@ -1,9 +1,11 @@
 module.exports = {
   entry: './src/index.js',
+  // add any external libraries that we require here
+  externals: [ ],
   output: {
     filename: 'lib/index.js',
     library: 'canvas-tools',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
   },
   module: {
     loaders: [
@@ -19,5 +21,5 @@ module.exports = {
   },
   resolve: {
     extensions: ['', '.js', '.json', '.coffee']
-  },
+  }
 };

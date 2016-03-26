@@ -1,4 +1,4 @@
-# @clef/canvas-tools
+# canvas-tools
 
 ![Build Status](https://img.shields.io/travis/clef/canvas-tools.svg)
 ![Coverage](https://img.shields.io/coveralls/clef/canvas-tools.svg)
