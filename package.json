@@ -1,7 +1,7 @@
 {
   "name": "@clef/canvas-tools",
   "description": "Tools for working with a DOM canvas",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "lib/index.js",
   "author": "jessepollak",
   "repository": "jessepollak/@clef/canvas-tools",
