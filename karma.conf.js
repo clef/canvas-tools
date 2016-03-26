@@ -12,7 +12,7 @@ webpackConfig.postLoaders = [{
 module.exports = function(config) {
   config.set({
     basePath: '.',
-    frameworks: ['chai', 'mocha'],
+    frameworks: ['chai', 'mocha', 'sinon'],
     files: [
       'tests.bundle.js'
     ],
@@ -30,15 +30,6 @@ module.exports = function(config) {
     browsers: ['Chrome'],
     singleRun: false,
     concurrency: Infinity,
-    plugins: [
-      'karma-chrome-launcher',
-      'karma-phantomjs-launcher',
-      'karma-chai',
-      'karma-mocha',
-      'karma-sourcemap-loader',
-      'karma-webpack',
-      'karma-coverage'
-    ],
     webpack: webpackConfig,
     webpackMiddleware: {
       noInfo: false
