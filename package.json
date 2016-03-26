@@ -9,7 +9,8 @@
   "scripts": {
     "compile": "webpack",
     "dev": "webpack-dev-server",
-    "prepublish": "npm run test && npm run compile",
+    "preversion": "npm run test",
+    "prepublish": "npm run compile",
     "postpublish": "git push origin master && git push --tags",
     "test": "karma start --single-run --browsers PhantomJS"
   },
