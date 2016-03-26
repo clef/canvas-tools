@@ -30,6 +30,17 @@ import canvasTools from '@clef/canvas-tools'
 
 Creates a HiDPI canvas compatible with both retina and non-retina devices.
 
+## Development
+
+To start development, run:
+
+```shell
+git clone git@github.com:clef/canvas-tools.git canvas-tools
+cd canvas-tools
+npm install
+npm run test
+```
+
 ## License
 
 MIT
