@@ -1,7 +1,8 @@
+var packageJSON = require('./package.json')
+
 module.exports = {
   entry: './src/index.js',
-  // add any external libraries that we require here
-  externals: [ ],
+  externals: packageJSON.dependencies ? Object.keys(packageJSON.dependencies) : [],
   output: {
     filename: 'lib/index.js',
     library: 'canvas-tools',
